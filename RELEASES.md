@@ -1,5 +1,21 @@
 # Releases
 
+## Release 1.1 (test 23), 20 November 2026
+
+A small update of Release 1. **It plays with Release 1**, with codes and in rooms, so nobody has to update at the
+same time.
+
+- **Quieter sound by default:** 75% of Release 1's level. Set your own with a line in `data\keys.ini`, from
+  `volume = 0` to `volume = 100` (100 is Release 1's level); the game reads it when it starts. The key tones (F5, F8,
+  F9) follow it too.
+- **Shorter credits** in `CREDITS.txt`, which the launcher's Settings > About shows.
+
+**Download** [`builds/FateUC-RollbackTest-23-1.1.zip`](builds/FateUC-RollbackTest-23-1.1.zip). To update a Release 1 folder, copy the zip's
+files over it: your keys, settings, name and history stay. This release contains none of the game's files or data
+either: it runs from your own disc image.
+
+**SHA-256** of `FateUC-RollbackTest-23-1.1.zip` (31,463,935 bytes): `541355d65bdeb4c0430bfcf9f71cec15d5e0223d96abb36e0808a72c99be47a2`
+
 ## Release 1 (test 23), 20 November 2026
 
 > [!IMPORTANT]
@@ -15,7 +31,7 @@
 The first public release of the native PC port of *Fate/unlimited codes* (PS2, Japan, SLPM-55108) with rollback
 netplay. Both players need Release 1: older test builds don't connect to it.
 
-**Download** [`builds/FateUC-RollbackTest-23.zip`](builds/FateUC-RollbackTest-23.zip), then follow
+**Download** [`builds/old/FateUC-RollbackTest-23.zip`](builds/old/FateUC-RollbackTest-23.zip), then follow
 [Get started](https://github.com/PureFighter/fateuc-native#get-started) and the
 [tester guide](https://github.com/PureFighter/fateuc-native/blob/main/TESTER-GUIDE.md).
 
