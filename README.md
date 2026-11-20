@@ -69,25 +69,19 @@ what you write and attach. Never attach game files, disc images or `.state` file
 
 ## Credits
 
-- **PureFighter**: the idea and the direction, every test, and every decision.
-- **Claude** (Anthropic): the code, written by a team of Claude agents, each with its own part:
-  - **W1**, the lead: the plan, the reviews, putting the parts together, the builds and the releases.
-  - **W2**: online play, the game's own launcher window, the settings and the F1 menu, controllers, the code server
-    and the rooms, the practice menu, the move lists and the stick display.
-  - **W3**: the benchmark.
-  - **W4**: fast saved states, GekkoNet rollback, hunting down desyncs, widescreen for every screen shape, practice
-    mode, the vote after a match, the automatic input delay and watching live matches.
-  - **W4B**: the second opinion on rollback's saved states.
-  - **W5**: the survey of other ports and the first measurements.
-  - **W6**: the launcher (`FateUC.exe`): its design, settings, profile, history, the Room tab and Report a problem.
-  - **W7**: replays: keeping, playing and checking them.
-  - **W8**: the design for watching online matches.
-  - **OBS**: the match observer, which knows the rounds, the wins and the characters.
-- Built on, with thanks: [ps2-native-recomp](https://github.com/exoteric33/ps2-native-recomp) by Samir Nuri and
-  exoteric33 (MIT), and ran-j's [PS2Recomp](https://github.com/ran-j/PS2Recomp), which recompiled the game first;
-  GekkoNet (BSD-2), miniupnpc (BSD-3), zpp_bits (MIT), SDL2 and SDL_GameControllerDB (zlib), wgpu-native (MIT and
-  Apache-2.0), the DirectX Shader Compiler, Play!'s MPEG tables (BSD-2); nemesis2000's 16:9 patch, where our
-  widescreen started; the Mizuumi wiki's Fate/unlimited codes pages, for the names of the moves. Their licences are
-  in the zip's `licenses` folder.
+- **PureFighter**: the project, its direction, the testing and every decision.
+- **Built on the work of others**, with thanks: [ps2-native-recomp](https://github.com/exoteric33/ps2-native-recomp) by
+  Samir Nuri and exoteric33 (MIT), the recompiler and runtime this port grew from, and ran-j's
+  [PS2Recomp](https://github.com/ran-j/PS2Recomp), which recompiled the game first; GekkoNet (BSD-2), miniupnpc
+  (BSD-3), zpp_bits (MIT), SDL2 and SDL_GameControllerDB (zlib), wgpu-native (MIT and Apache-2.0), the DirectX Shader
+  Compiler and Play!'s MPEG tables (BSD-2); nemesis2000's 16:9 patch, where our widescreen started; the Mizuumi wiki's
+  Fate/unlimited codes pages, for the names of the moves. Their licences are in the zip's `licenses` folder.
+- **Made with Claude** (Anthropic): the code was written with Claude, an AI model, under PureFighter's direction.
 - *Fate/unlimited codes* is by Type-Moon, Cavia, Eighting and Capcom, and its names and marks are theirs. This
   project contains none of the game's files or data.
+
+### Was this made with AI?
+
+Yes. The code was written with Claude, Anthropic's AI model. PureFighter decided what to build, ran the tests on
+real PCs and made every call; Claude wrote the code, and the checks it runs before each release. The port stands on
+the projects above, ps2-native-recomp first of all.

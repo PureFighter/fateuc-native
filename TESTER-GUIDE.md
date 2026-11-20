@@ -93,4 +93,4 @@ Good to know:
 ## 8. Who's who
 
 - **PureFighter** runs the project and decides what comes next.
-- The code is written by a team of Claude agents (Anthropic). The [front page](README.md#credits) has the credits.
+- The code is written with Claude (Anthropic), an AI model. The [front page](README.md#credits) has the credits.
