@@ -22,7 +22,7 @@ key and file).
 1. Open the current release's zip in [`builds`](builds) (the front page names it) and press **Download raw file**
    (the download button at the top right of the file's page).
 2. Right-click the zip, **Properties**, tick **Unblock**, **OK**.
-3. Extract it into a folder of its own, for example `Documents\FateUC\FateUC-RollbackTest-23` (not inside Program
+3. Extract it into a folder of its own, for example `Documents\FateUC\FateUC-RollbackTest-24` (not inside Program
    Files).
 4. Put your `.iso` into that folder, or one level up (`Documents\FateUC`) so that every release finds it.
 5. Double-click **`FateUC.exe`**, the launcher. The programs are not signed, so Windows may say "Windows protected
@@ -76,8 +76,10 @@ Good to know:
 
 - The front page names it, and [RELEASES.md](RELEASES.md) says what changed. PureFighter announces new releases.
 - Both players need the new release: older and newer releases don't connect.
-- Extract the new zip into a new folder next to the old one. Its first start brings your settings and your name
-  over. Keep the old folder until the new one works for you.
+- Extract the new zip into a new folder next to the old one. At its first start, **4. Older settings** brings your
+  keys, controller settings and disc choice over; type your name again. Keep the old folder until the new one works
+  for you. Or close the game and the launcher and copy the new release's files over the old folder: your name and
+  history stay too.
 
 ## 7. If something goes wrong
 
@@ -86,6 +88,8 @@ Good to know:
 | "Windows protected your PC" | **More info**, then **Run anyway** |
 | The launcher can't find the disc | Put the `.iso` in the release's folder or the folder above, or pick it in the launcher |
 | Can't connect | Check that you're both on the same release, read what the window says, swap who hosts, try again; then report with both zips |
+| My controls aren't kept after a restart | Set them in **F1 > Change keys** or **F1 > Controllers**: those are kept and work online too. The game's own OPTION > BUTTON CONFIG isn't kept yet |
+| The game won't close, or the launcher says a game is already running | Since Release 1.2 a game that hasn't closed 8 seconds after you quit ends itself. In the launcher, **Close it...** (then **End it...**) closes a game started outside it |
 | The controller does nothing, or shows up twice | In **Settings > Game** (or the F1 menu), set Controllers to **XInput only** or **DirectInput only** |
 | Hitches, slowdown, input lag, characters jumping | Note the ping and input delay (F4) and when it happened, and report |
 | "DESYNC" | Write down what each screen showed, and report with both zips |

@@ -20,9 +20,9 @@ A fan-made native PC port of the PS2 fighting game *Fate/unlimited codes* (Japan
 
 It is not affiliated with or endorsed by Type-Moon, Cavia, Eighting or Capcom.
 
-**Current release: Release 1.1** (test 23): [`builds/FateUC-RollbackTest-23-1.1.zip`](builds/FateUC-RollbackTest-23-1.1.zip). What's in it and
-its SHA-256: [RELEASES.md](RELEASES.md). Release 1.1 plays with Release 1; different releases otherwise don't connect,
-and the screens say so.
+**Current release: Release 1.2** (test 24): [`builds/FateUC-RollbackTest-24.zip`](builds/FateUC-RollbackTest-24.zip). What's in it and its
+SHA-256: [RELEASES.md](RELEASES.md). Both players need Release 1.2: it doesn't connect with Release 1 or 1.1, and the
+screens say so.
 
 ## Get started
 

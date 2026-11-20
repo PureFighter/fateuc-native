@@ -1,5 +1,43 @@
 # Releases
 
+## Release 1.2 (test 24), 20 November 2026
+
+Fixes for the first reports, thank you for them. **Both players need Release 1.2**: it doesn't play with Release 1 or
+1.1 (the game's simulation changed), with codes or in rooms.
+
+- **Practice no longer freezes when you choose a stage** (issues #1 and #2), and **quitting no longer leaves the game
+  stuck** in Windows until Task Manager ends it. Both came from one wait in the game's drawing queue that could miss
+  its wake-up while a stage loaded. It's fixed, and a game that still hasn't closed 8 seconds after you quit now ends
+  itself (exit code 8), with what was still running in its log.
+- **The launcher (0.7.0) and the game stay in step.** A game started by hand (`ps2run.exe`), or one stuck after
+  quitting, no longer makes the launcher's starts do nothing: the launcher says so and offers to close it. Requests
+  and replies left over from an earlier start are set aside and never act on a later game. When the game doesn't
+  start, the launcher says why and what to do.
+- **Your controls and settings** are saved whole at each change, a save that fails says so on screen, and controller
+  files work in folders with non-English letters. **Older settings** at the first start now also brings your
+  controller's button layout. The game's own **OPTION > BUTTON CONFIG** is not kept yet: use **F1 > Change keys** or
+  **F1 > Controllers**, which are kept and work online too. The game tells you once when you change its BUTTON CONFIG.
+- **Choppy sound at moves like Saber's 236L:** we couldn't make it happen here, but a likely cause is handled: the
+  graphics card's programs for the effects a run meets are kept in `data\hw\pipelines.txt` and made before the game
+  starts, from the second start on. If you still hear it, please report it: the log now says what each stutter
+  waited for.
+- **11 more of the game's VU1 programs are built in** (met on stages 1, 3, 4, 5 and 10), instead of running in
+  the slower interpreter.
+- **Rooms and Host/Join:** a player back from a dropped connection gets the seat that waited; a match whose opponent
+  left first ends instead of holding the room; a comeback the room service refuses leaves the room at once, with
+  words; Sit, Accept or a start pressed twice counts once.
+
+**Download** [`builds/FateUC-RollbackTest-24.zip`](builds/FateUC-RollbackTest-24.zip). To update, close the game and the launcher, then
+either copy the new folder's files over your Release 1.1 folder (your keys, settings, name and history stay), or
+extract it into a new folder: at its first start, **4. Older settings** brings your keys, controller settings and disc
+choice from the old one. This release contains none of the game's files or data either: it runs from your own disc
+image.
+
+**Try first:** Practice, choosing different stages from the practice menu; quitting the game, from the launcher and
+from a game started by hand; then a session or a room with a friend.
+
+**SHA-256** of `FateUC-RollbackTest-24.zip` (32,328,231 bytes): `476a4a265f4c68729f55c7e45fa202a3a26e37c9911a51636f3574f16429d003`
+
 ## Release 1.1 (test 23), 20 November 2026
 
 A small update of Release 1. **It plays with Release 1**, with codes and in rooms, so nobody has to update at the
@@ -10,7 +48,7 @@ same time.
   F9) follow it too.
 - **Shorter credits** in `CREDITS.txt`, which the launcher's Settings > About shows.
 
-**Download** [`builds/FateUC-RollbackTest-23-1.1.zip`](builds/FateUC-RollbackTest-23-1.1.zip). To update a Release 1 folder, copy the zip's
+**Download** [`builds/old/FateUC-RollbackTest-23-1.1.zip`](builds/old/FateUC-RollbackTest-23-1.1.zip). To update a Release 1 folder, copy the zip's
 files over it: your keys, settings, name and history stay. This release contains none of the game's files or data
 either: it runs from your own disc image.
 
