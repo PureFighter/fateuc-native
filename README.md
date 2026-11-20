@@ -70,8 +70,9 @@ what you write and attach. Never attach game files, disc images or `.state` file
 
  with thanks: [ps2-native-recomp](https://github.com/exoteric33/ps2-native-recomp) by
   Samir Nuri and exoteric33 (MIT), the recompiler and runtime this port grew from, and ran-j's
-  [PS2Recomp](https://github.com/ran-j/PS2Recomp), which recompiled the game first; [GekkoNet](https://github.com/PureFighter/fateuc-native) (BSD-2), miniupnpc
-  (BSD-3), zpp_bits (MIT), SDL2 and SDL_GameControllerDB (zlib), wgpu-native (MIT and Apache-2.0), the DirectX Shader
+  [PS2Recomp](https://github.com/ran-j/PS2Recomp), which recompiled the game first;
+  [GekkoNet](https://github.com/PureFighter/fateuc-native)  (BSD-2)
+  miniupnpc (BSD-3), zpp_bits (MIT), SDL2 and SDL_GameControllerDB (zlib), wgpu-native (MIT and Apache-2.0), the DirectX Shader
   Compiler and Play!'s MPEG tables (BSD-2); nemesis2000's 16:9 patch, where our widescreen started; the Mizuumi wiki's
   Fate/unlimited codes pages, for the names of the moves. Their licences are in the zip's `licenses` folder.
 - **Made with Claude** (Anthropic): the code was written with Claude, an AI model, under PureFighter's direction.
