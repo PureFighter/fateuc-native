@@ -68,8 +68,7 @@ what you write and attach. Never attach game files, disc images or `.state` file
 
 ## Credits
 
-- **PureFighter**: the project, its direction, the testing and every decision.
-- **Built on the work of others**, with thanks: [ps2-native-recomp](https://github.com/exoteric33/ps2-native-recomp) by
+ with thanks: [ps2-native-recomp](https://github.com/exoteric33/ps2-native-recomp) by
   Samir Nuri and exoteric33 (MIT), the recompiler and runtime this port grew from, and ran-j's
   [PS2Recomp](https://github.com/ran-j/PS2Recomp), which recompiled the game first; GekkoNet (BSD-2), miniupnpc
   (BSD-3), zpp_bits (MIT), SDL2 and SDL_GameControllerDB (zlib), wgpu-native (MIT and Apache-2.0), the DirectX Shader
@@ -78,9 +77,3 @@ what you write and attach. Never attach game files, disc images or `.state` file
 - **Made with Claude** (Anthropic): the code was written with Claude, an AI model, under PureFighter's direction.
 - *Fate/unlimited codes* is by Type-Moon, Cavia, Eighting and Capcom, and its names and marks are theirs. This
   project contains none of the game's files or data.
-
-### Was this made with AI?
-
-Yes. The code was written with Claude, Anthropic's AI model. PureFighter decided what to build, ran the tests on
-real PCs and made every call; Claude wrote the code, and the checks it runs before each release. The port stands on
-the projects above, ps2-native-recomp first of all.
