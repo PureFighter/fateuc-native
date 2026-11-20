@@ -20,16 +20,17 @@ A fan-made native PC port of the PS2 fighting game *Fate/unlimited codes* (Japan
 
 It is not affiliated with or endorsed by Type-Moon, Cavia, Eighting or Capcom.
 
-**Current release: [Release 1](https://github.com/PureFighter/fateuc-native/releases/latest)** (test 23). Both
-players need the same release: different releases don't connect, and the screens say so.
+**Current release: Release 1** (test 23):
+[`builds/FateUC-RollbackTest-23.zip`](builds/FateUC-RollbackTest-23.zip). What's in it and its SHA-256:
+[RELEASES.md](RELEASES.md). Both players need the same release: different releases don't connect, and the screens
+say so.
 
 ## Get started
 
 You need Windows 10 or 11 (64-bit), **your own disc image** of *Fate/unlimited codes* (Japan, SLPM-55108) as an `.iso`
 file, and a controller, an arcade stick or the keyboard.
 
-1. Download the zip from the [latest release](https://github.com/PureFighter/fateuc-native/releases/latest) (under
-   **Assets**).
+1. Download the current release's zip from [`builds`](builds): click it, then **Download raw file** (top right).
 2. Right-click the zip, **Properties**, tick **Unblock**, **OK**. Then extract it into a folder of its own.
 3. Put your `.iso` into that folder, or into the folder above it so that every release finds it.
 4. Double-click **`FateUC.exe`**, the launcher. The programs are not signed, so Windows may say "Windows protected

@@ -19,8 +19,8 @@ key and file).
 
 ## 2. Install (about 5 minutes)
 
-1. Open the [latest release](https://github.com/PureFighter/fateuc-native/releases/latest) and download the zip under
-   **Assets**.
+1. Open the current release's zip in [`builds`](builds) (the front page names it) and press **Download raw file**
+   (the download button at the top right of the file's page).
 2. Right-click the zip, **Properties**, tick **Unblock**, **OK**.
 3. Extract it into a folder of its own, for example `Documents\FateUC\FateUC-RollbackTest-23` (not inside Program
    Files).
@@ -48,8 +48,7 @@ key and file).
 ## 4. A test session
 
 1. Agree on a time with your friends. Everyone uses the **same release**: different releases don't connect.
-2. The release's notes on the [Releases page](https://github.com/PureFighter/fateuc-native/releases) say what to try
-   first; then just play.
+2. The release's notes in [RELEASES.md](RELEASES.md) say what to try first; then just play.
 3. Keep the launcher open while you play. When a game closes, the launcher packs a **report zip** for that session
    (see its **Reports** tab).
 4. Afterwards, each player reports (section 5). A session where everything went well is worth a report too.
@@ -75,8 +74,7 @@ Good to know:
 
 ## 6. When a new release comes out
 
-- It appears on the [Releases page](https://github.com/PureFighter/fateuc-native/releases). To get an email, press
-  **Watch > Custom > Releases** at the top of this repository.
+- The front page names it, and [RELEASES.md](RELEASES.md) says what changed. PureFighter announces new releases.
 - Both players need the new release: older and newer releases don't connect.
 - Extract the new zip into a new folder next to the old one. Its first start brings your settings and your name
   over. Keep the old folder until the new one works for you.
