@@ -20,9 +20,9 @@ A fan-made native PC port of the PS2 fighting game *Fate/unlimited codes* (Japan
 
 It is not affiliated with or endorsed by Type-Moon, Cavia, Eighting or Capcom.
 
-**Current release: Release 1.2** (test 24): [`builds/FateUC-RollbackTest-24.zip`](builds/FateUC-RollbackTest-24.zip). What's in it and its
-SHA-256: [RELEASES.md](RELEASES.md). Both players need Release 1.2: it doesn't connect with Release 1 or 1.1, and the
-screens say so.
+**Current release: Release 1.3** (test 25): [`builds/FateUC-RollbackTest-25.zip`](builds/FateUC-RollbackTest-25.zip). What's in it and its
+SHA-256: [RELEASES.md](RELEASES.md). Both players need Release 1.3: it doesn't connect with Release 1.2 or older, and
+the screens say so.
 
 ## Get started
 
@@ -59,7 +59,8 @@ goes wrong. The zip's `README.txt` is the full manual (every setting, key and fi
 
 ## Report a problem
 
-Press **Report a problem** in the launcher (on the Reports tab, or after a session). It opens a new issue here with
+Press **Report a problem** at the bottom right of the launcher (it needs a GitHub account), on the Reports tab, or
+after a session. It opens a new issue here with
 the build, your setup, the ping and your PC already filled in, and it shows your report zip. Write what happened,
 then drag **both players'** report zips into the box. You can also open an issue yourself with the **Report** template.
 

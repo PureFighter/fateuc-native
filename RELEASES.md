@@ -1,5 +1,43 @@
 # Releases
 
+## Release 1.3 (test 25), 21 November 2026
+
+Menus, buttons and keys, from your notes. **Both players need Release 1.3**: it doesn't play with Release 1.2 or
+older (the game's simulation changed), with codes or in rooms.
+
+- **Cross confirms and Circle goes back** in every menu: the game's own (title, main menu, character and stage
+  select, OPTION, the pause menu, after a match) and ours (the F1 menu, the practice menu, Change keys, MATCH READY,
+  the game's own window). In a fight the buttons keep their meaning (Circle is H, Cross is RG). The game's own
+  pictures of the buttons still show a circle beside "decide". `menu_confirm = circle` in `data\keys.ini` brings back
+  the old way.
+- **The game's own button settings are kept:** CONTROLLER SETTINGS (in OPTION, or the pause menu in a fight) is
+  remembered on your PC and used in Play offline, practice, Host/Join and rooms. Online each player keeps their own:
+  the two games send them to each other when they connect, and watchers and replays get them too.
+- **The score at the end of a match:** while both players pick Rematch, Character Select or Main Menu, each player's
+  wins in the session show on their own side (in a room, the set's score).
+- **Menus:** the chosen line of the F1 and practice menus has a see-through white-grey bar, and L1/R1 switch the
+  tabs. Long lists (Change keys, the move list) have two levels: Cross goes into the list, which scrolls; Circle comes
+  back out.
+- **New default keys** for a new `keys.ini`: **W A S D** to move, **U** Square (L), **I** Triangle (M), **J** Cross,
+  **K** Circle (H), O R1, P L1, Esc Start. An existing `keys.ini` keeps your keys: **F1 > Change keys > Put back the
+  default keys** takes the new ones.
+- **The disc image is checked:** the launcher and the game take only an `.iso` of Fate/unlimited codes (SLPM-55108).
+  An Android installer or another game's `.iso` in the same folder is passed over, with words, and a wrong file you
+  choose is refused (before, the first `.iso` by name could be taken and the game closed at once).
+- **The launcher (0.8.1):** **Report a problem** is at the bottom right of its window on every tab, with a note that
+  it needs a GitHub account.
+
+**Download** [`builds/FateUC-RollbackTest-25.zip`](builds/FateUC-RollbackTest-25.zip). To update, close the game and the launcher, then
+either copy the new folder's files over your Release 1.2 folder (your keys, settings, name and history stay), or
+extract it into a new folder: at its first start, **4. Older settings** brings your keys, controller settings and disc
+choice from the old one. This release contains none of the game's files or data either: it runs from your own disc
+image.
+
+**Try first:** the game's menus and character select with Cross; your CONTROLLER SETTINGS in the game, then a restart;
+the practice menu and Change keys; after a match, the score while you pick.
+
+**SHA-256** of `FateUC-RollbackTest-25.zip` (32,374,067 bytes): `23247ff78cddf7e292e7cef240300c2fa84a181da26aaf094f51e0c37c965656`
+
 ## Release 1.2 (test 24), 20 November 2026
 
 Fixes for the first reports, thank you for them. **Both players need Release 1.2**: it doesn't play with Release 1 or
@@ -27,7 +65,7 @@ Fixes for the first reports, thank you for them. **Both players need Release 1.2
   left first ends instead of holding the room; a comeback the room service refuses leaves the room at once, with
   words; Sit, Accept or a start pressed twice counts once.
 
-**Download** [`builds/FateUC-RollbackTest-24.zip`](builds/FateUC-RollbackTest-24.zip). To update, close the game and the launcher, then
+**Download** [`builds/old/FateUC-RollbackTest-24.zip`](builds/old/FateUC-RollbackTest-24.zip). To update, close the game and the launcher, then
 either copy the new folder's files over your Release 1.1 folder (your keys, settings, name and history stay), or
 extract it into a new folder: at its first start, **4. Older settings** brings your keys, controller settings and disc
 choice from the old one. This release contains none of the game's files or data either: it runs from your own disc

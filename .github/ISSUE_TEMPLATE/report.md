@@ -8,7 +8,7 @@ labels: rollback
 <!-- Issues are public. Never attach game files, disc images or .state files. The report zips hide IP addresses,
 codes and your Windows user folder. -->
 
-**Test** (the release, for example "Release 1.2 (test 24)") and the **launcher's version** (Settings > About):
+**Test** (the release, for example "Release 1.3 (test 25)") and the **launcher's version** (Settings > About):
 
 **Setup:** over the internet / same home network / same PC. Ping and input delay from the session line (F4), and the
 feel (Responsive or Smooth):

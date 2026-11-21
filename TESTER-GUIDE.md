@@ -22,7 +22,7 @@ key and file).
 1. Open the current release's zip in [`builds`](builds) (the front page names it) and press **Download raw file**
    (the download button at the top right of the file's page).
 2. Right-click the zip, **Properties**, tick **Unblock**, **OK**.
-3. Extract it into a folder of its own, for example `Documents\FateUC\FateUC-RollbackTest-24` (not inside Program
+3. Extract it into a folder of its own, for example `Documents\FateUC\FateUC-RollbackTest-25` (not inside Program
    Files).
 4. Put your `.iso` into that folder, or one level up (`Documents\FateUC`) so that every release finds it.
 5. Double-click **`FateUC.exe`**, the launcher. The programs are not signed, so Windows may say "Windows protected
@@ -41,7 +41,9 @@ key and file).
   them **Sit**, both press **Accept**, and the match starts by itself. Everyone else watches it live, and anyone
   waiting can press **Practice** until their turn.
 - **In the game:** **F1** opens the menu (**Start** in practice), **F4** shows or hides the session line (ping, input
-  delay, rollbacks), **F11** switches full screen.
+  delay, rollbacks), **F11** switches full screen. **Cross** confirms and **Circle** goes back in every menu.
+- **Keyboard:** **W A S D** to move, **U** Square (L), **I** Triangle (M), **J** Cross, **K** Circle (H); Enter and Esc
+  also confirm and go back in menus. Change them in **F1 > Change keys**.
 - **Feel:** in **Settings > Online**, **Responsive** has the least input delay, and **Smooth** adds a frame where
   that steadies the picture. Try both and tell us which you prefer at your distance.
 
@@ -55,8 +57,9 @@ key and file).
 
 ## 5. Report
 
-1. Press **Report a problem** in the launcher: on the **Reports** tab, or in the summary after a session or a room
-   match. Your browser opens a new issue here with the build, your setup, the ping and your PC filled in, and a
+1. Press **Report a problem** in the launcher: at the bottom right of its window (every tab), on the **Reports** tab,
+   or in the summary after a session or a room match. It needs a GitHub account. Your browser opens a new issue
+   here with the build, your setup, the ping and your PC filled in, and a
    folder opens with your report zip selected.
 2. Write what happened, when, and whether it happened again.
 3. Drag **both players'** report zips into the box. Pictures or a short video help a lot: drag them in too.
@@ -86,9 +89,9 @@ Good to know:
 | What you see | What to do |
 | --- | --- |
 | "Windows protected your PC" | **More info**, then **Run anyway** |
-| The launcher can't find the disc | Put the `.iso` in the release's folder or the folder above, or pick it in the launcher |
+| The launcher can't find the disc | Put the `.iso` in the release's folder or the folder above, or pick it in the launcher. Since Release 1.3 an `.iso` of another game or program is passed over, and the launcher says which |
 | Can't connect | Check that you're both on the same release, read what the window says, swap who hosts, try again; then report with both zips |
-| My controls aren't kept after a restart | Set them in **F1 > Change keys** or **F1 > Controllers**: those are kept and work online too. The game's own OPTION > BUTTON CONFIG isn't kept yet |
+| My controls aren't kept after a restart | Since Release 1.3, **F1 > Change keys**, **F1 > Controllers** and the game's own CONTROLLER SETTINGS are all kept. If one isn't, report it with the zip |
 | The game won't close, or the launcher says a game is already running | Since Release 1.2 a game that hasn't closed 8 seconds after you quit ends itself. In the launcher, **Close it...** (then **End it...**) closes a game started outside it |
 | The controller does nothing, or shows up twice | In **Settings > Game** (or the F1 menu), set Controllers to **XInput only** or **DirectInput only** |
 | Hitches, slowdown, input lag, characters jumping | Note the ping and input delay (F4) and when it happened, and report |
